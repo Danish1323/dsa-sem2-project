@@ -1,0 +1,27 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+terminal_tunes
+run_tests
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+*.dSYM/
+*.out
+*.app
