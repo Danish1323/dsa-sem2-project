@@ -25,3 +25,9 @@ run_tests
 *.dSYM/
 *.out
 *.app
+
+# PDF Generation Scripts
+node_modules/
+package*.json
+report.html
+generate_pdf.js
