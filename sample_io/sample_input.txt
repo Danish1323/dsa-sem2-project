@@ -1,0 +1,9 @@
+play
+next
+select
+Hotel California
+stats
+history
+library
+dev
+exit

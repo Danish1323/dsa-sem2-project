@@ -1,0 +1,39 @@
+Welcome to TerminalTunes! Type 'help' for commands.
+Enter Command > play
+[Playing] Numb by Linkin Park
+
+Enter Command > next
+[Playing] In The End by Linkin Park
+
+Enter Command > select
+Enter exact song title to search: Hotel California
+[Found] Jumping to Hotel California by Eagles
+
+Enter Command > stats
+--- PLAYLIST STATISTICS ---
+Playlist Name:       Rock Legends
+Total Songs:         5
+Total Plays:         3
+Unique Artists:      3
+Most Played Song:    Numb by Linkin Park (1 plays)
+
+Enter Command > history
+--- LISTENING HISTORY (Stack) ---
+1. Hotel California by Eagles
+2. In The End by Linkin Park
+3. Numb by Linkin Park
+
+Enter Command > library
+--- GENERAL SONG CATALOG ---
+1. Numb - Linkin Park
+2. In The End - Linkin Park
+...
+4. Hotel California - Eagles
+...
+
+Enter Command > dev
+[DEVELOPER MODE: Doubly Linked List Visualizer]
+NULL <- [Numb] <-> [In The End] <-> [[Hotel California]] <-> [Faint] -> NULL
+
+Enter Command > exit
+Thank you for using TerminalTunes! Goodbye!
