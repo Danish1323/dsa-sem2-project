@@ -1,4 +1,4 @@
-# 2.1 Project Title: TerminalTunes
+# 2.1 Project Title: Case Study 173: Music Playlist Manager (Doubly Linked List)
 
 > A colorful terminal-based music playlist management system built in **C++17**, designed to demonstrate Data Structures and Algorithms concepts through an engaging, real-world simulation.
 
@@ -6,11 +6,17 @@
 
 ## 2.2 Problem Statement
 
-In modern software, managing sequences of media (like a playlist of songs) requires efficient navigation, queueing, and historical tracking. The problem is to develop a robust, terminal-based music playlist management system that simulates real-world operations such as moving forward and backward through tracks, shuffling, tracking listening history, and managing an upcoming song queue. This system must be built entirely from scratch using fundamental Data Structures and Algorithms (without relying on pre-built, high-level STL containers like `std::list`, `std::stack`, or `std::queue`) to demonstrate a profound understanding of memory management and algorithmic efficiency.
+**Industry Context**: Music streaming applications allow users to create playlists, rearrange songs, and move between tracks efficiently.
+
+**Workflow**: Songs are stored as nodes containing previous and next references. Users can move to the next song, return to previous songs, insert new tracks, or remove unwanted tracks. 
+
+**Example Scenario**: A playlist contains Song A, Song B, and Song C. The user listens to Song B and decides to return to Song A using the previous pointer. The system provides smooth navigation, dynamic playlist management, enhanced user experience, and efficient music playback.
 
 ---
 
 ## 2.3 Objectives
+
+Develop a flexible music playlist system that supports forward and backward navigation between songs. A Doubly Linked List allows navigation in both directions using next and previous pointers, making it ideal for playlist management.
 
 1. **Practical Application of DSA**: To apply theoretical Data Structures and Algorithms concepts to a recognizable, real-world application (a music player).
 2. **Custom Data Structures**: To implement a custom Doubly Linked List (for the playlist), a custom Stack using a Singly Linked List (for listening history), and a custom Queue using a Singly Linked List (for the upcoming song queue).
@@ -23,6 +29,9 @@ In modern software, managing sequences of media (like a playlist of songs) requi
 ## 2.4 System Overview / Architecture
 
 TerminalTunes is structured using Object-Oriented Principles in C++17. The system is divided into modular components:
+
+**High-Level Architecture**:
+`Music Library -> Playlist Manager -> Doubly Linked List -> Music Player Interface`
 
 ```
 TerminalTunes

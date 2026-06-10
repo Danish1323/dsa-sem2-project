@@ -1,27 +1,34 @@
-# DSA-I Project Report: TerminalTunes
+# DSA-I Project Report
 
 ## 3.1 Cover Page
-**Project**: TerminalTunes  
+**University**: ITM Skills University  
+**Project**: Case Study 173: Music Playlist Manager (Doubly Linked List)  
 **Course**: Data Structures and Algorithms - I (Using C++)  
 **Semester**: 2  
 
 ## 3.2 Student Details
 **Name**: Danish Shaikh  
-**Role**: Sole Developer  
+**Roll Number**: 150096725147  
+**Course**: B.TECH COMPUTER SCIENCE AND ENGINEERING  
+**Batch/Cohort**: 2025-29 / JEFF BEZOS  
 
 ## 3.3 Project Title
-TerminalTunes - Dynamic C++ DLL Music Simulator
+Case Study 173: Music Playlist Manager (Doubly Linked List)
 
 ## 3.4 Problem Statement
-In modern software, managing sequences of media requires efficient navigation, queueing, and historical tracking. The problem is to develop a robust, terminal-based music playlist management system simulating operations like moving forward/backward through tracks, shuffling, tracking listening history, and managing an upcoming song queue. This must be built entirely from scratch using fundamental Data Structures without relying on pre-built STL containers (like `std::list`, `std::stack`, or `std::queue`) to demonstrate profound understanding of memory management and algorithmic efficiency.
+**Industry Context**: Music streaming applications allow users to create playlists, rearrange songs, and move between tracks efficiently.
+
+**Workflow**: Songs are stored as nodes containing previous and next references. Users can move to the next song, return to previous songs, insert new tracks, or remove unwanted tracks. 
+
+**Example Scenario**: A playlist contains Song A, Song B, and Song C. The user listens to Song B and decides to return to Song A using the previous pointer. The system provides smooth navigation, dynamic playlist management, enhanced user experience, and efficient music playback.
 
 ## 3.5 Objectives
-1. To apply theoretical DSA concepts to a real-world application (music player).
-2. To implement custom core structures: a Doubly Linked List (Playlist), a Singly Linked List Stack (History), and a Singly Linked List Queue (Upcoming).
-3. To achieve O(1) time complexity for core navigation and insertion operations.
-4. To strictly manage dynamic memory with pointers.
+Develop a flexible music playlist system that supports forward and backward navigation between songs. A Doubly Linked List allows navigation in both directions using next and previous pointers, making it ideal for playlist management.
 
 ## 3.6 Design/Architecture
+**High-Level Architecture**:
+`Music Library -> Playlist Manager -> Doubly Linked List -> Music Player Interface`
+
 The system uses Object-Oriented Principles in C++17. 
 - **Playlist Manager**: Manages Doubly Linked List nodes (`Song`).
 - **History Manager**: A Stack built via a Singly Linked List (`HistoryNode`).
