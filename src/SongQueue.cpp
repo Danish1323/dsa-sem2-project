@@ -1,4 +1,4 @@
-#include "SongQueue.h"
+#include "../include/SongQueue.h"
 
 SongQueue::SongQueue() : frontNode(nullptr), rearNode(nullptr), size(0) {}
 

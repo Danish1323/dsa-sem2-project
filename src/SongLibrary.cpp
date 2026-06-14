@@ -1,4 +1,4 @@
-#include "SongLibrary.h"
+#include "../include/SongLibrary.h"
 #include <algorithm>
 
 // Helper to convert string to lowercase

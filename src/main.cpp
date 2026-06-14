@@ -1,9 +1,9 @@
-#include "Song.h"
-#include "Playlist.h"
-#include "HistoryManager.h"
-#include "SongQueue.h"
-#include "UI.h"
-#include "SongLibrary.h"
+#include "../include/Song.h"
+#include "../include/Playlist.h"
+#include "../include/HistoryManager.h"
+#include "../include/SongQueue.h"
+#include "../include/UI.h"
+#include "../include/SongLibrary.h"
 #include <iostream>
 #include <iomanip>
 #include <vector>

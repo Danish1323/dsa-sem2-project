@@ -1,4 +1,4 @@
-#include "HistoryManager.h"
+#include "../include/HistoryManager.h"
 
 HistoryManager::HistoryManager() : topNode(nullptr), size(0) {}
 
